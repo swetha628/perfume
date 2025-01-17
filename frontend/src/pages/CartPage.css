@@ -1,0 +1,142 @@
+/* src/pages/CartPage.css */
+.cart-page {
+    text-align: center;
+  }
+  
+  .cart-page h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #FF7A00;
+  }
+  /* Cart Page Styles */
+.cart {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.cart h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.cart table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.cart table th,
+.cart table td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.cart table th {
+  background-color: #f4f4f4;
+}
+
+.cart .total {
+  font-size: 20px;
+  text-align: right;
+  margin-top: 20px;
+}
+
+.cart .checkout-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  display: block;
+  width: 200px;
+  margin: 20px auto;
+  transition: background-color 0.3s ease;
+}
+
+.cart .checkout-button:hover {
+  background-color: #0056b3;
+}
+
+/* Checkout Page Styles */
+.checkout-page {
+  padding: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.checkout-page h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.checkout-page h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.checkout-page .table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.checkout-page .table th,
+.checkout-page .table td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.checkout-page .table th {
+  background-color: #f4f4f4;
+}
+
+.checkout-page .place-order {
+  padding: 12px 25px;
+  background-color: #28a745;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  display: block;
+  width: 220px;
+  margin: 20px auto;
+  transition: background-color 0.3s ease;
+}
+
+.checkout-page .place-order:hover {
+  background-color: #218838;
+}
+
+/* Make the cart and checkout responsive */
+@media (max-width: 768px) {
+  .cart,
+  .checkout-page {
+    padding: 10px;
+  }
+
+  .cart table,
+  .checkout-page .table {
+    font-size: 14px;
+  }
+
+  .cart .checkout-button,
+  .checkout-page .place-order {
+    width: 100%;
+  }
+}
+
+  
+  

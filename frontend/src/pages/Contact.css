@@ -1,0 +1,113 @@
+/* src/pages/Contact.css */
+
+.contact-page {
+    background-color: #f0f2f5; /* Light gray background for contrast */
+    min-height: 100vh; /* Ensure the page takes full viewport height */
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contact-card {
+    border: none;
+    border-radius: 15px; /* Rounded corners for elegance */
+    background-color: #ffffff; /* White background for the card */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+.contact-card .card-body {
+    padding: 40px;
+}
+
+.title {
+    color: #20c997; /* Title color */
+    font-weight: bold; /* Bold title */
+    font-size: 2rem; /* Larger font size for the title */
+    margin-bottom: 20px; /* Space between title and form */
+}
+
+/* Custom styles for form controls */
+.contact-form .custom-form-control {
+    border-radius: 10px; /* Rounded input fields */
+    border: 1px solid #ced4da; /* Light border */
+    padding: 12px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-form .custom-form-control:focus {
+    border-color: #20c997; /* Accent color on focus */
+    box-shadow: 0 0 0 0.2rem rgba(32, 201, 151, 0.25); /* Light green glow */
+    outline: none; /* Remove default outline */
+}
+
+.submit-button {
+    background-color: #20c997; /* Accent color */
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #1ca68b; /* Darker shade on hover */
+    transform: translateY(-2px); /* Lift effect */
+}
+
+.submit-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(32, 201, 151, 0.5); /* Soft green glow */
+}
+
+/* Social Icons */
+.social-icons a {
+    transition: transform 0.2s, color 0.3s ease;
+}
+
+.social-icons a:hover {
+    transform: scale(1.1);
+    color: #20c997; /* Color change on hover */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .contact-card .card-body {
+        padding: 20px;
+    }
+
+    .title {
+        font-size: 1.5rem; /* Smaller title size on mobile */
+    }
+
+    .contact-form .custom-form-control {
+        padding: 10px;
+    }
+
+    .submit-button {
+        padding: 10px;
+        font-size: 1rem;
+    }
+
+    .social-icons a {
+        margin: 0 5px;
+    }
+}
+
+@media (max-width: 400px) {
+    .contact-page {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .title {
+        font-size: 1.25rem; /* Smaller title for very small screens */
+    }
+
+    .contact-form .custom-form-control {
+        padding: 8px;
+    }
+
+    .submit-button {
+        padding: 8px;
+        font-size: 0.9rem;
+    }
+}

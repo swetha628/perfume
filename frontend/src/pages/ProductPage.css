@@ -1,0 +1,34 @@
+/* src/pages/ProductPage.css */
+.product-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.product-description {
+  font-size: 1.1rem;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.product-price {
+  font-size: 1.5rem;
+  color: #FF7A00;
+}
+
+.size-label {
+  font-weight: bold;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  color: #000;
+  margin: 0 10px;
+}
+
+.social-icons a:hover {
+  color: #FF7A00;
+}
